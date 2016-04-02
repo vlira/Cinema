@@ -1,0 +1,14 @@
+git init
+git remote add origin https://github.com/vlira/Cinema.git
+
+Para bajarlo
+git pull origin master
+
+Para empaquetar localmente
+git add -A
+
+Para poner un mensaje al empaquetado
+git commit -m "mensaje"
+
+Subir cambios
+git push origin master
