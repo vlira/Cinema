@@ -1,14 +1,18 @@
-<?php namespace Cinema\Http\Controllers;
+<?php
 
-class PruebaController extends Controller{
+namespace Cinema\Http\Controllers;
 
-	public function index()
-	{
-		return "Hola desde PruebaController.php";
+use Illuminate\Http\Request;
+use Cinema\Http\Requests;
+use Cinema\Http\Controllers\Controller;
+
+class PruebaController extends Controller
+{
+	public function index(){
+		return "Hola desde Index";
 	}
 
-	public function nombre($nombre)
-	{
-		return "Mi nombre es: ".$nombre;
+	public function nombre($nombre){
+		return "Hola mi nombre es: ".$nombre;
 	}
 }

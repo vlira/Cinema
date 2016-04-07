@@ -19,7 +19,6 @@ class CreateMoviesTable extends Migration
             $table->string('direction');
             $table->string('duration');
             $table->timestamps();
-            /*Llave foránea*/
             $table->integer('genre_id')->unsigned();
             $table->foreign('genre_id')->references('id')->on('genres');
         });

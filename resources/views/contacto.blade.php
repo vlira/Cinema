@@ -1,6 +1,5 @@
 @extends('layouts.principal')
-
-@section('content')
+	@section('content')
 		<div class="contact-content">
 			<div class="top-header span_top">
 				<div class="logo">
@@ -34,4 +33,4 @@
 			 </form>
 	     </div>
 </div>
-@stop
+	@endsection	

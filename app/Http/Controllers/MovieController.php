@@ -3,7 +3,6 @@
 namespace Cinema\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use Cinema\Http\Requests;
 use Cinema\Http\Controllers\Controller;
 
@@ -26,7 +25,7 @@ class MovieController extends Controller
      */
     public function create()
     {
-        return "Formulario para crear";
+        return "Esto seria el formulario para crear";
     }
 
     /**
